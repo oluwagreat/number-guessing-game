@@ -5,9 +5,9 @@ const user = prompt("Kindly enter your name");
 console.log(`Welcome ${user}`);
 
 //declare vuseful variables
-let points = 0;
 let currentLevel = 1;
 let maxLevel = 10;
+
 do {
   console.log(`You are on Level ${currentLevel}`);
   // console.log(`Enter a number between ${currentLevel} and ${maxLevel}`);
